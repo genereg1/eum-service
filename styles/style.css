@@ -3,5 +3,27 @@ ul.menu-list li {
 	font-size: 25px;
 	display: inline;
 	font-family: Verdana;
+	margin: 10px;
+	padding: 5px;
+
+	border-color: green;
+	border-style: solid;
+
 }
+
+div.menu {
+	
+}
+
+div.logo {
+	width: 108px;
+
+}
+
+ul.menu-list li:hover {
+	color:#92A9BF; 
+	background: green;
+}
+
+
 
