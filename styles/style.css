@@ -22,7 +22,10 @@ ul.menu-list li:hover {
 }
 
 div.menu-background {
-	width: 700px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: 200px;
 	background-color: #4c4c69;
 }
