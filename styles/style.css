@@ -1,14 +1,10 @@
 ul.menu-list li {
-	color: navy;
-	font-size: 25px;
+	color: white;
+	font-size: 20px;
 	display: inline;
 	font-family: Verdana;
 	margin: 10px;
 	padding: 5px;
-
-	border-color: green;
-	border-style: solid;
-
 }
 
 div.menu {
@@ -21,9 +17,13 @@ div.logo {
 }
 
 ul.menu-list li:hover {
-	color:#92A9BF; 
-	background: green;
+	/*color: #92A9BF; */
+	background: #696992;
 }
 
-
+div.menu-background {
+	width: 700px;
+	height: 200px;
+	background-color: #4c4c69;
+}
 
