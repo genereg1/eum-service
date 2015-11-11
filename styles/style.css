@@ -7,14 +7,17 @@ ul.menu-list li {
 	padding: 5px;
 }
 
-div.logo {
-	width: 108px;
+img#logo {
+	
+	padding: 20px;
+
 
 }
 
 div.menu {
 	position: relative;
 	left: 100px;
+
 }
 
 ul.menu-list li:hover {
