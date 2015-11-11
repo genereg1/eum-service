@@ -16,7 +16,8 @@ img#logo {
 
 div.menu {
 	position: relative;
-	left: 100px;
+	left: 150px;
+	bottom: 25px;
 
 }
 
