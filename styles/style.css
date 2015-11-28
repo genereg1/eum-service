@@ -1,3 +1,7 @@
+/*body{
+	margin: 0 auto;
+}
+
 ul.menu-list li {
 	color: white;
 	font-size: 20px;
@@ -23,10 +27,10 @@ div.menu {
 
 ul.menu-list li:hover {
 	/*color: #92A9BF; */
-	background: #696992;
+/*	background: #696992;
 }
-
-div.menu-background {
+*/
+/*div.menu-background {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -34,4 +38,22 @@ div.menu-background {
 	height: 175px;
 	background-color: #4c4c69;
 }
-
+*/
+.container{
+	margin: 0 auto;
+	width: 770px;
+}
+.header{
+	width: 100%;
+}
+.logo{
+	display: inline;
+}
+.nav a{
+   text-decoration: none;
+}
+.nav li{
+	text-decoration: none;
+	display: inline;
+	float: right;
+}
