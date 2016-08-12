@@ -25,9 +25,11 @@ img#logo {
 }
 
 div.menu {
-    position: fixed;
-    top: 47px;
-    right: 209px;
+    position: absolute;
+    left: 700px;
+    top: 25px;
+    right: 0px;
+
 }
 
 ul.menu-list li:hover {
@@ -37,7 +39,8 @@ ul.menu-list li:hover {
 }
 
 div.menu-background {
-    position: fixed;
+/*    position: fixed;*/
+    position: absolute;
     top: 25px;
     width: 1280px;
     height: 278px;
@@ -51,7 +54,8 @@ div.menu-background {
     background: #8eae43;
     border-radius: 228px;
 /*    opacity: 0.75;*/
-    position: fixed;
+/*    position: fixed;*/
+    position: absolute;
     top: -158px;
     background: linear-gradient(90deg, #85a737, #a7bf6b);
 }
@@ -65,12 +69,10 @@ div.menu-background {
     height: 290px;
     overflow: hidden;
 /*    margin: 0 0 7px;*/
-    position: relative;
-/*
+    position: absolute;
     left: 419px;
     bottom: 413px;
     right: 246px;
-*/
     border: 25px solid #fffdfa;    
     border-radius: 20px;
     
